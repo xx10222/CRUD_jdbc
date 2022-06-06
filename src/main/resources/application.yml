@@ -1,0 +1,9 @@
+server:
+  port: 9000  # 9000번 포트로 실행
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306
+    username: root # 만약 따로 설정하지 않으셨다면 기본값은 admin 입니다
+    password:  # 비밀번호를 입력해주세요!
